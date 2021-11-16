@@ -1,24 +1,28 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BrainController : MonoBehaviour
-{ 
-   int health;
+{
+    public GameObject Ui;
+    public Image healthBar;
+    int health=500;
+    private float Starthealth;
     // Start is called before the first frame update
     void Start()
     {
-        health =200;
+        Starthealth =health;
     }
 
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(health);
+        //Debug.Log(health);
 
         if (health <= 0)
         {
-
+            GameOverMenu();
             Destroy(gameObject);
         }
     }
@@ -27,6 +31,23 @@ public class BrainController : MonoBehaviour
     {
 
         health--;
+        healthBar.fillAmount = health / Starthealth;
     }
-    
+
+    public void GameOverMenu()
+    {
+        //if the panel is active it makes it not active and viseversa
+        Ui.SetActive(!Ui.activeSelf);
+        //testing if the ui is active
+        if (Ui.activeSelf)
+        {
+            //freezing the game by setting timescale =0f;
+            Time.timeScale = 0f;
+        }
+        else
+        {
+            //resetting the game to normal speed
+            Time.timeScale = 1f;
+        }
+    }
 }

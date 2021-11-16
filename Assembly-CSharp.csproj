@@ -61,6 +61,7 @@
     <Compile Include="Assets\Scripts\shop.cs" />
     <Compile Include="Assets\Resources\Quantum Tek\Simple Menu\Scripts\SM_TabWindow.cs" />
     <Compile Include="Assets\Resources\Sci-Fi UI\Demo_Assets\scripts\GUI_Demo.cs" />
+    <Compile Include="Assets\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Resources\Quantum Tek\Simple Menu\Scripts\SM_SaveOptionList.cs" />
     <Compile Include="Assets\Resources\Quantum Tek\Simple Menu\Scripts\SM_Bar.cs" />
     <Compile Include="Assets\Resources\Quantum Tek\Simple Menu\Scripts\SM_SaveToggle.cs" />
@@ -81,7 +82,7 @@
     <Compile Include="Assets\Artwroks\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
     <Compile Include="Assets\Resources\Quantum Tek\Simple Menu\Scripts\SM_Tab.cs" />
     <Compile Include="Assets\Resources\Quantum Tek\Simple Menu\Scripts\SM_Window.cs" />
-    <Compile Include="Assets\Scripts\PauseMenu.cs" />
+    <Compile Include="Assets\Scripts\MainMenui.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Resources\TextMesh Pro\Resources\Shaders\TMPro.cginc" />

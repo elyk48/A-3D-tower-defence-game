@@ -2,13 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
-
+using UnityEngine.UI;
 
 public class AI_nav : MonoBehaviour
 {
    public NavMeshAgent agent;
     Animator animator;
      GameObject brain;
+    GameObject Enemy;
     [SerializeField]
     private float range;
     private bool Gotwepon = false;
@@ -17,17 +18,34 @@ public class AI_nav : MonoBehaviour
     public GameObject raycastOrigin;
     public float cooldown = 1f; //seconds
     private float lastAttackedAt = -9999f;
+    public float startHealth = 100;
+    private float health;
+    public Image healthBar;
+    private bool isDead = false;
+
+
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
         brain = GameObject.FindGameObjectWithTag("Brain");
         weaponIk = GetComponent<WeaponIk>();
-        
+        health = startHealth;
         raycastOrigin = GameObject.FindGameObjectWithTag("Raycast");
         weaponIk.SetaimTransform(raycastOrigin.transform);
     }
 
+    public void TakeDamage(float amount)
+    {
+        health -= amount;
+
+        healthBar.fillAmount = health / startHealth;
+
+        if (health <= 0 && !isDead)
+        {
+            Destroy(Enemy,3f);
+        }
+    }
     // Update is called once per frame
     void Update()
     {

@@ -10,7 +10,6 @@ public class EnemyMVT : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //setting the first targeted way point
         target = Waypoints.waypoints[0];
     }
 
@@ -25,21 +24,15 @@ public class EnemyMVT : MonoBehaviour
             GetNextwayPoint();
         }
     }
-
-    //function to call the next way point once the the enemy arrives to the targted waypoint
     void GetNextwayPoint()
     {
-        //testing if the waypointIndex is higher or equal than the length of the array
+
         if(waypointIndex >= Waypoints.waypoints.Length - 1)
-        { //getting the brain gameobject
-            brain =GameObject.FindGameObjectWithTag("Brain");
-            //destroying the enemy once arrved to the last waypoint 
+        { brain =GameObject.FindGameObjectWithTag("Brain");
             Destroy(gameObject);
             return;
         }
-        //incrementing the index of waypoints
         waypointIndex++;
-        //calling the next targeted waypoint
         target = Waypoints.waypoints[waypointIndex];
     }
 }
