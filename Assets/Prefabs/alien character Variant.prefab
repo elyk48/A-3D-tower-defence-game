@@ -19192,26 +19192,6 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
---- !u!114 &368623831
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6269945170798349056}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffd9b9824e09dbb43b9c502553eafe76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bone: {fileID: 6269945170798253798}
-  isfiring: 0
-  weight: 1
-  angleLimit: 90
-  distanceLimit: 1.5
-  muzzelFlash: {fileID: 6179806199650743278}
-  hitEffect: {fileID: 1170519561957611352}
-  tracerEffect: {fileID: 0}
 --- !u!1001 &6269945169861930676
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19480,3 +19460,23 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: e5836d050fdb354479bcd0d285bf2f22, type: 3}
   m_PrefabInstance: {fileID: 6269945170798382100}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &368623831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6269945170798349056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffd9b9824e09dbb43b9c502553eafe76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bone: {fileID: 6269945170798253798}
+  isfiring: 0
+  weight: 1
+  angleLimit: 90
+  distanceLimit: 1.5
+  muzzelFlash: {fileID: 6179806199650743278}
+  hitEffect: {fileID: 1170519561957611352}
+  tracerEffect: {fileID: 7317887490590716083, guid: faa7d13b5fa9b1346a409039542a72bc, type: 3}

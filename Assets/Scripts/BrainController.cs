@@ -7,11 +7,11 @@ public class BrainController : MonoBehaviour
 {
     public GameObject Ui;
     public Image healthBar;
-    int health=500;
+    int health=250;
     private float Starthealth;
     // Start is called before the first frame update
     void Start()
-    {
+    {//initializing the starting health
         Starthealth =health;
     }
 
@@ -21,16 +21,17 @@ public class BrainController : MonoBehaviour
         //Debug.Log(health);
 
         if (health <= 0)
-        {
+        { //calling the game over menu
             GameOverMenu();
             Destroy(gameObject);
         }
     }
-
+    //a function to apply damage to the brain and affect the healthbar
     public void applyDamage()
     {
 
         health--;
+        //Image mta el healthbar tonkes bechwaya bchwaya 
         healthBar.fillAmount = health / Starthealth;
     }
 

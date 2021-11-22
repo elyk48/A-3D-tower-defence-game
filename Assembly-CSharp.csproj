@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\DebugDrawSphere.cs" />
     <Compile Include="Assets\Resources\Quantum Tek\Simple Menu\Scripts\SM_SaveSlider.cs" />
+    <Compile Include="Assets\Scripts\MainMenui.cs" />
     <Compile Include="Assets\Scripts\Turret.cs" />
     <Compile Include="Assets\Resources\Quantum Tek\Simple Menu\Scripts\SM_TabGroup.cs" />
     <Compile Include="Assets\Scripts\BrainController.cs" />
@@ -82,7 +83,7 @@
     <Compile Include="Assets\Artwroks\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
     <Compile Include="Assets\Resources\Quantum Tek\Simple Menu\Scripts\SM_Tab.cs" />
     <Compile Include="Assets\Resources\Quantum Tek\Simple Menu\Scripts\SM_Window.cs" />
-    <Compile Include="Assets\Scripts\MainMenui.cs" />
+    <Compile Include="Assets\wave_mannager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Resources\TextMesh Pro\Resources\Shaders\TMPro.cginc" />

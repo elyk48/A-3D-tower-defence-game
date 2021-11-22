@@ -42,16 +42,21 @@ public class PauseMenu : MonoBehaviour
 
 
     }
+    //retry button function
     public void Retry()
-    {
+    {  //trajaaa l wakt normal 
         Time.timeScale = 1f;
+        //load scene using build Index
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
     }
+
+    //go to Main Menu button
     public void Menu()
     {
-
-        Debug.Log("Go to menu");
+        //load the scene with name
+        SceneManager.LoadScene("MainMenu");
+        Time.timeScale = 1f;
     }
 
 
