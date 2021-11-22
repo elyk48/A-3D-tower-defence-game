@@ -54,36 +54,25 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\DebugDrawSphere.cs" />
-    <Compile Include="Assets\Resources\Quantum Tek\Simple Menu\Scripts\SM_SaveSlider.cs" />
     <Compile Include="Assets\Scripts\MainMenui.cs" />
     <Compile Include="Assets\Scripts\Turret.cs" />
-    <Compile Include="Assets\Resources\Quantum Tek\Simple Menu\Scripts\SM_TabGroup.cs" />
     <Compile Include="Assets\Scripts\BrainController.cs" />
     <Compile Include="Assets\Scripts\shop.cs" />
-    <Compile Include="Assets\Resources\Quantum Tek\Simple Menu\Scripts\SM_TabWindow.cs" />
     <Compile Include="Assets\Resources\Sci-Fi UI\Demo_Assets\scripts\GUI_Demo.cs" />
     <Compile Include="Assets\Scripts\PauseMenu.cs" />
-    <Compile Include="Assets\Resources\Quantum Tek\Simple Menu\Scripts\SM_SaveOptionList.cs" />
-    <Compile Include="Assets\Resources\Quantum Tek\Simple Menu\Scripts\SM_Bar.cs" />
-    <Compile Include="Assets\Resources\Quantum Tek\Simple Menu\Scripts\SM_SaveToggle.cs" />
     <Compile Include="Assets\Resources\Pause Menu Assets\Scripts\Utlities\CoroutineUtlities.cs" />
     <Compile Include="Assets\Scripts\EnemyMVT.cs" />
     <Compile Include="Assets\Resources\Pause Menu Assets\Scripts\Pausemenu\PauseManager.cs" />
     <Compile Include="Assets\Scripts\DebugDrawLine.cs" />
-    <Compile Include="Assets\Resources\Quantum Tek\Simple Menu\Scripts\SM_Menu.cs" />
-    <Compile Include="Assets\Resources\Quantum Tek\Simple Menu\Scripts\SM_Audio.cs" />
     <Compile Include="Assets\Resources\Pause Menu Assets\Scripts\Pausemenu\SaveSettings.cs" />
     <Compile Include="Assets\Resources\Pause Menu Assets\Scripts\Utlities\Rotate.cs" />
     <Compile Include="Assets\Scripts\Bullet.cs" />
     <Compile Include="Assets\Scripts\Waypoints.cs" />
-    <Compile Include="Assets\Resources\Quantum Tek\Simple Menu\Scripts\SM_OptionList.cs" />
     <Compile Include="Assets\Scripts\AI_nav.cs" />
-    <Compile Include="Assets\Resources\Quantum Tek\Simple Menu\Scripts\SM_SaveDropdown.cs" />
     <Compile Include="Assets\Scripts\WeaponIk.cs" />
     <Compile Include="Assets\Artwroks\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
-    <Compile Include="Assets\Resources\Quantum Tek\Simple Menu\Scripts\SM_Tab.cs" />
-    <Compile Include="Assets\Resources\Quantum Tek\Simple Menu\Scripts\SM_Window.cs" />
-    <Compile Include="Assets\wave_mannager.cs" />
+    <Compile Include="Assets\Scripts\wave_mannager.cs" />
+    <Compile Include="Assets\Scripts\Ai_Mutant.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Resources\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
@@ -100,7 +89,6 @@
     <None Include="Assets\Resources\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\Resources\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\Resources\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\Resources\Quantum Tek\Simple Menu\Fonts\Oxygen\OFL.txt" />
     <None Include="Assets\Resources\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\Artwroks\EffectExamples\Misc Effects\Shaders\FireFly.shader" />
     <None Include="Assets\Resources\Pause Menu Assets\Fonts\exo\SIL Open Font License.txt" />

@@ -7,7 +7,7 @@ public class BrainController : MonoBehaviour
 {
     public GameObject Ui;
     public Image healthBar;
-    int health=250;
+    int health=10000;
     private float Starthealth;
     // Start is called before the first frame update
     void Start()
