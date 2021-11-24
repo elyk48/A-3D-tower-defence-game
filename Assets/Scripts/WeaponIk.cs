@@ -18,7 +18,7 @@ public class WeaponIk : MonoBehaviour
     public ParticleSystem muzzelFlash;
     public ParticleSystem hitEffect;
     public TrailRenderer tracerEffect;
-     GameObject raycastOrigin;
+    public  Transform raycastOrigin;
     GameObject brain;
     BrainController bC;
     Ray ray;
@@ -26,7 +26,8 @@ public class WeaponIk : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        raycastOrigin = GameObject.FindGameObjectWithTag("Raycast");
+        
+       
         brain = GameObject.FindGameObjectWithTag("Brain");
         bC = brain.GetComponent<BrainController>();
     }

@@ -29310,6 +29310,7 @@ MonoBehaviour:
   muzzelFlash: {fileID: 6179806199650743278}
   hitEffect: {fileID: 1170519561957611352}
   tracerEffect: {fileID: 7317887490590716083, guid: faa7d13b5fa9b1346a409039542a72bc, type: 3}
+  raycastOrigin: {fileID: 2065226}
 --- !u!1001 &8330532965175209992
 PrefabInstance:
   m_ObjectHideFlags: 0
