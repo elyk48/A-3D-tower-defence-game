@@ -54,29 +54,30 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\DebugDrawSphere.cs" />
+    <Compile Include="Assets\Scripts\objectFunctionalities.cs" />
     <Compile Include="Assets\Scripts\MainMenui.cs" />
     <Compile Include="Assets\Scripts\Turret.cs" />
     <Compile Include="Assets\Scripts\BrainController.cs" />
     <Compile Include="Assets\Scripts\shop.cs" />
     <Compile Include="Assets\Resources\Sci-Fi UI\Demo_Assets\scripts\GUI_Demo.cs" />
     <Compile Include="Assets\Scripts\PauseMenu.cs" />
+    <Compile Include="Assets\Scripts\SelectedUI.cs" />
     <Compile Include="Assets\Resources\Pause Menu Assets\Scripts\Utlities\CoroutineUtlities.cs" />
     <Compile Include="Assets\Scripts\EnemyMVT.cs" />
     <Compile Include="Assets\Resources\Pause Menu Assets\Scripts\Pausemenu\PauseManager.cs" />
     <Compile Include="Assets\Scripts\DebugDrawLine.cs" />
     <Compile Include="Assets\Resources\Pause Menu Assets\Scripts\Pausemenu\SaveSettings.cs" />
+    <Compile Include="Assets\Scripts\clickOn.cs" />
     <Compile Include="Assets\Resources\Pause Menu Assets\Scripts\Utlities\Rotate.cs" />
     <Compile Include="Assets\Scripts\Bullet.cs" />
     <Compile Include="Assets\Scripts\Waypoints.cs" />
+    <Compile Include="Assets\Scripts\Click.cs" />
     <Compile Include="Assets\Scripts\AI_nav.cs" />
     <Compile Include="Assets\Scripts\WeaponIk.cs" />
     <Compile Include="Assets\Artwroks\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
     <Compile Include="Assets\Scripts\Ai_Mutant.cs" />
     <Compile Include="Assets\Scripts\wave_mannager.cs" />
-    <Compile Include="Assets\Scripts\Click.cs" />
-    <Compile Include="Assets\Scripts\clickOn.cs" />
-    <Compile Include="Assets\Scripts\objectFunctionalities.cs" />
-    <Compile Include="Assets\Scripts\SelectedUI.cs" />
+    <Compile Include="Assets\Scripts\currency.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Resources\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
