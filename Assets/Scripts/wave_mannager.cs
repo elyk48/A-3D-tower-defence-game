@@ -12,7 +12,9 @@ public class wave_mannager : MonoBehaviour
     private float countdown = 2f;
     private int waveIndex = 0;
     private int maxwave = 3;
-    ////////Ui///////
+   /// <summary>
+   /// UI  text wave count down
+   /// </summary>
     public Text waveCountDownText;
 
     private void Update()
@@ -32,7 +34,10 @@ public class wave_mannager : MonoBehaviour
         waveCountDownText.text = Mathf.Round(countdown).ToString();
     }
 
-
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <returns> an IEnumrator </returns>
     IEnumerator SpawnWave()
     {
 

@@ -73,11 +73,13 @@
     <Compile Include="Assets\Scripts\Waypoints.cs" />
     <Compile Include="Assets\Scripts\Click.cs" />
     <Compile Include="Assets\Scripts\AI_nav.cs" />
+    <Compile Include="Assets\Scripts\currency.cs" />
     <Compile Include="Assets\Scripts\WeaponIk.cs" />
     <Compile Include="Assets\Artwroks\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
     <Compile Include="Assets\Scripts\Ai_Mutant.cs" />
     <Compile Include="Assets\Scripts\wave_mannager.cs" />
-    <Compile Include="Assets\Scripts\currency.cs" />
+    <Compile Include="Assets\Scripts\leveltrans.cs" />
+    <Compile Include="Assets\Scripts\whitecell.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Resources\TextMesh Pro\Resources\Shaders\TMPro.cginc" />

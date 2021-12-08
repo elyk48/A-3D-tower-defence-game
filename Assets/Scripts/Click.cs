@@ -13,15 +13,21 @@ public class Click : MonoBehaviour
 
     public SelectedUI US_Ui;
     public GameObject _UpgradedPrefab;
-
+   
     // Update is called once per frame
     void Update()
     {
 
+        /// <summary>
+        /// Selecting object
+        /// </summary>
         if (Input.GetMouseButtonDown(0))
         {
 
             RaycastHit rayhit;
+            /// <summary>
+            /// testing if you selected an object
+            /// </summary>
             if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition),out rayhit,Mathf.Infinity,ClickableLayer))
             {
                 if (clicked == false)
